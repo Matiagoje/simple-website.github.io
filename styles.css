@@ -5,13 +5,15 @@
   body {
     margin: 0;
     font-family: 'Rubik Bubbles', cursive;
+    background-color: cornsilk;
   }
   
  /* Style the header */
   .header {
-    background-color: #f1f1f1;
+    background-color: #7AA095;
     padding: 20px;
     text-align: center;
+    color: #FFEED6;
   }
 
   
@@ -36,7 +38,7 @@
     padding-left: 80px;
   }
   .skills {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
@@ -52,6 +54,12 @@
   ul {
     list-style-type: none;
   }
+  li {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
 
   /* */
 a {
@@ -59,22 +67,22 @@ a {
 } 
   /* unvisited link */
 a:link {
-    color: black;
+    color: #235789;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: #594157;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: #726DA8;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: #30638E;
   }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
