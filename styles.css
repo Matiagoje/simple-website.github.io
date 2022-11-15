@@ -24,11 +24,23 @@
   /* Left and right column */
   .column.side {
     width: 25%;
+    text-align: center;
   }
   
   /* Middle column */
   .column.mid {
     width: 50%;
+    text-align: center;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  .skills {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
   }
    /* 
    Clear floats after the columns */
@@ -40,7 +52,30 @@
   ul {
     list-style-type: none;
   }
+
+  /* */
+a {
+    text-decoration: none;
+} 
+  /* unvisited link */
+a:link {
+    color: black;
+  }
   
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column.side, .column.middle {
