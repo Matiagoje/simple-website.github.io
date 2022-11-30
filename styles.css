@@ -1,93 +1,75 @@
- * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Rubik Bubbles', cursive;
-    background-color: cornsilk;
-  }
-  
- /* Style the header */
-  .header {
-    background-color: #7AA095;
-    padding: 20px;
-    text-align: center;
-    color: #FFEED6;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
-    float: left;
-    padding: 10px;
-  }
-  
-  /* Left and right column */
-  .column.side {
-    width: 25%;
-    text-align: center;
-  }
-  
-  /* Middle column */
-  .column.mid {
-    width: 50%;
-    text-align: center;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  }
-  .skills {
-    padding-top: 80px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+body {
+  margin: 0;
+  font-family: 'Rubik Bubbles', cursive;
+  background-color: cornsilk;
+  text-align: center;
+  font-size: 20px;
+}
 
-  }
-   /* 
-   Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }  
-  ul {
-    list-style-type: none;
-  }
-  li {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-  }
+/* Style the header */
+.header {
+  background-color: #7AA095;
+  padding: 20px;
+  text-align: center;
+  color: #FFEED6;
+}
+.main {
+  padding: 20px; 
+  
+}
+.skills {
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 
-  /* */
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.contact {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* */
 a {
-    text-decoration: none;
+  text-decoration: none;
 } 
-  /* unvisited link */
+/* unvisited link */
 a:link {
-    color: #235789;
+  color: #235789;
+}
+
+/* visited link */
+a:visited {
+  color: #594157;
+}
+
+/* mouse over link */
+a:hover {
+  color: #726DA8;
+}
+
+/* selected link */
+a:active {
+  color: #30638E;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
   }
-  
-  /* visited link */
-  a:visited {
-    color: #594157;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #726DA8;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #30638E;
-  }
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column.side, .column.middle {
-      width: 100%;
-    }
-  }
+}
 
