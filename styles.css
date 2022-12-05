@@ -17,10 +17,16 @@ body {
   text-align: center;
   color: #FFEED6;
 }
+
+
 .main {
   padding: 20px; 
-  
 }
+
+p {
+  text-align: center;
+  line-height: 1.6;
+} 
 .skills {
   padding-top: 80px;
   padding-right: 30px;
@@ -39,8 +45,12 @@ li {
   padding-left: 30px;
 }
 .contact {
+  overflow:hidden
+}
+
+.contacts li {
   display: inline-block;
-  margin: 0 10px;
+  align-items: center;
 }
 
 /* */
